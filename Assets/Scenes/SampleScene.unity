@@ -726,7 +726,7 @@ MonoBehaviour:
   m_ShowDebugText: 0
   m_ShowCameraFrustum: 1
   m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
+  m_WorldUpOverride: {fileID: 564216312}
   m_UpdateMethod: 2
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
@@ -803,8 +803,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471880371}
-  m_LocalRotation: {x: -0.28576836, y: 0.0043086847, z: -0.0012830276, w: -0.9582882}
-  m_LocalPosition: {x: 0.012890371, y: 3.2749352, z: -12.457824}
+  m_LocalRotation: {x: -0.34728715, y: 0.25439233, z: -0.09845302, w: -0.8972085}
+  m_LocalPosition: {x: 16.313158, y: 31.836565, z: -23.801876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 5.7
+  m_CameraDistance: 10
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -1829,32 +1829,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1264743015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a11716fbd8844447b45f350c2724c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ExcludedPropertiesInInspector:
-  - m_Script
-  m_LockStageInInspector: 
-  m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 564216312}
-  m_Lens:
-    FieldOfView: 60
-    OrthographicSize: 5
-    NearClipPlane: 0.3
-    FarClipPlane: 1000
-    Dutch: 0
-    LensShift: {x: 0, y: 0}
-  m_Transitions:
-    m_BlendHint: 0
-    m_InheritPosition: 0
-    m_OnCameraLive:
-      m_PersistentCalls:
-        m_Calls: []
-  m_LegacyBlendHint: 0
-  m_ComponentOwner: {fileID: 928366628}
+  MoveSpeed: 10
 --- !u!4 &1264743017
 Transform:
   m_ObjectHideFlags: 0
@@ -1863,7 +1841,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264743015}
   m_LocalRotation: {x: -0.28576836, y: 0.0043086847, z: -0.0012830276, w: -0.9582882}
-  m_LocalPosition: {x: 0.012890371, y: 3.2749352, z: -12.457824}
+  m_LocalPosition: {x: 14.98, y: 28.89, z: -26.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 928366628}
